@@ -49,6 +49,7 @@ python3 utils/vis_slam_open3d.py --ply_folder '/home/shk/Desktop/kiss-slam/slam_
 ---
 
 ### Run KISS SLAM
+You need to place the kitti_raw_lidar.py and the lis_office_raw_lidar.py from the dataloader folder into the dataloader folder from kiss_icp, depending on where kiss_icp is located on your machine. 
 
 #### On KITTI Raw LiDAR
 
@@ -57,6 +58,7 @@ python3 kiss_slam_pipeline '/home/shk/Downloads/raw_data_downloader' --dataloade
 ```
 
 #### On LIS Lab (Indoor Livox) Data
+
 
 ```bash
 python3 kiss_slam_pipeline '/home/shk/Downloads' --dataloader lis_office_raw_lidar --sequence 000
