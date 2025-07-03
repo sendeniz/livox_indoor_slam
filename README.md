@@ -1,6 +1,6 @@
 ## Indoor Lidar SLAM with Livox MID-360 at TU Berlin
 
-This project utilizes a **Livox MID-360** LiDAR scanner to collect indoor point cloud data from the **4th floor of the Learning & Intelligent Systems (LIS) Lab** at **TU Berlin**. SLAM is performed using the [**KISS SLAM**](https://github.com/PRBonn/kiss-icp) package.
+This project utilizes a **Livox MID-360** LiDAR scanner to collect indoor point cloud data from the **4th floor of the Learning & Intelligent Systems (LIS) Lab** at **TU Berlin**. SLAM is performed using the [**KISS SLAM**](https://github.com/PRBonn/kiss-slam) package.
 
 ---
 
