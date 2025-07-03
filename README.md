@@ -1,4 +1,4 @@
-## 📍 Indoor Lidar SLAM with Livox MID-360 at TU Berlin
+## Indoor Lidar SLAM with Livox MID-360 at TU Berlin
 
 This project utilizes a **Livox MID-360** LiDAR scanner to collect indoor point cloud data from the **4th floor of the Learning & Intelligent Systems (LIS) Lab** at **TU Berlin**. SLAM is performed using the [**KISS SLAM**](https://github.com/PRBonn/kiss-icp) package.
 
@@ -48,15 +48,15 @@ python3 utils/vis_slam_open3d.py --ply_folder '/home/shk/Desktop/kiss-slam/slam_
 
 ---
 
-### 🚀 Run KISS SLAM
+### Run KISS SLAM
 
-#### 🔸 On KITTI Raw LiDAR
+#### On KITTI Raw LiDAR
 
 ```bash
 python3 kiss_slam_pipeline '/home/shk/Downloads/raw_data_downloader' --dataloader kitti_raw_lidar --sequence 00
 ```
 
-#### 🔸 On LIS Lab (Indoor Livox) Data
+#### On LIS Lab (Indoor Livox) Data
 
 ```bash
 python3 kiss_slam_pipeline '/home/shk/Downloads' --dataloader lis_office_raw_lidar --sequence 000
@@ -64,7 +64,7 @@ python3 kiss_slam_pipeline '/home/shk/Downloads' --dataloader lis_office_raw_lid
 
 ---
 
-### 🔗 Data Downloads
+### Data Downloads
 
 - **Raw LIS Indoor LiDAR Data**:  
   [Download](https://drive.google.com/file/d/1zLlG1QnEej6WVvuUTs3DnotH8_C0g1wK/view?usp=sharing)
@@ -74,7 +74,7 @@ python3 kiss_slam_pipeline '/home/shk/Downloads' --dataloader lis_office_raw_lid
 
 ---
 
-### ℹ️ Notes
+### Notes
 
 - The `shk` in file paths refers to the user folder of a *Studentische Hilfskraft* (student assistant) at TU Berlin.
 - All code assumes a 2D planar motion (no change in z), with `phi` being the heading angle.
